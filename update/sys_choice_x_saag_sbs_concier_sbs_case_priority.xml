@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="priority" table="x_saag_sbs_concier_sbs_case" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>priority</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>1 - Critical</label>
+            <language>en</language>
+            <name>x_saag_sbs_concier_sbs_case</name>
+            <sequence>1</sequence>
+            <sys_created_by>E0346167</sys_created_by>
+            <sys_created_on>2017-12-14 08:25:00</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c12095d54fcbcb00f2a20e428110c79a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>E0346167</sys_updated_by>
+            <sys_updated_on>2017-12-14 08:25:00</sys_updated_on>
+            <value>1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>priority</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>2 - High</label>
+            <language>en</language>
+            <name>x_saag_sbs_concier_sbs_case</name>
+            <sequence>2</sequence>
+            <sys_created_by>E0346167</sys_created_by>
+            <sys_created_on>2017-12-14 08:25:17</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3840d5914fcbcb00f2a20e428110c7d1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>E0346167</sys_updated_by>
+            <sys_updated_on>2017-12-14 08:25:17</sys_updated_on>
+            <value>2</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>priority</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>3 - Moderate</label>
+            <language>en</language>
+            <name>x_saag_sbs_concier_sbs_case</name>
+            <sequence>3</sequence>
+            <sys_created_by>E0346167</sys_created_by>
+            <sys_created_on>2017-12-14 08:25:32</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d85051d54fcbcb00f2a20e428110c77e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>E0346167</sys_updated_by>
+            <sys_updated_on>2017-12-14 08:25:32</sys_updated_on>
+            <value>3</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>priority</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>4 - Low</label>
+            <language>en</language>
+            <name>x_saag_sbs_concier_sbs_case</name>
+            <sequence>4</sequence>
+            <sys_created_by>E0346167</sys_created_by>
+            <sys_created_on>2017-12-14 08:25:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>cb5019d54fcbcb00f2a20e428110c7e9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>E0346167</sys_updated_by>
+            <sys_updated_on>2017-12-14 08:25:42</sys_updated_on>
+            <value>4</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>priority</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>5 - Planning</label>
+            <language>en</language>
+            <name>x_saag_sbs_concier_sbs_case</name>
+            <sequence>5</sequence>
+            <sys_created_by>E0346167</sys_created_by>
+            <sys_created_on>2017-12-14 08:25:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9a60d5d54fcbcb00f2a20e428110c706</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>E0346167</sys_updated_by>
+            <sys_updated_on>2017-12-14 08:25:55</sys_updated_on>
+            <value>5</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>priority</element>
+            <name>x_saag_sbs_concier_sbs_case</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>E0346167</sys_created_by>
+            <sys_created_on>2017-12-14 08:25:00</sys_created_on>
+            <sys_id>26fd8ef5db170300cdc6d450cf96197d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>priority</sys_name>
+            <sys_package display_value="Sanofi SBS Helpdesk" source="x_saag_sbs_concier">b83950904f0f0b00f2a20e428110c7a4</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Sanofi SBS Helpdesk">b83950904f0f0b00f2a20e428110c7a4</sys_scope>
+            <sys_update_name>sys_choice_x_saag_sbs_concier_sbs_case_priority</sys_update_name>
+            <sys_updated_by>E0346167</sys_updated_by>
+            <sys_updated_on>2017-12-14 08:25:00</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

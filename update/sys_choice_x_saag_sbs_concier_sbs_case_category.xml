@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="category" table="x_saag_sbs_concier_sbs_case" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>ATLAS</label>
+            <language>en</language>
+            <name>x_saag_sbs_concier_sbs_case</name>
+            <sequence/>
+            <sys_created_by>E0346167</sys_created_by>
+            <sys_created_on>2017-12-12 03:16:29</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3d6639a8378f870008ae13b853990e68</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>E0346167</sys_updated_by>
+            <sys_updated_on>2017-12-12 03:16:29</sys_updated_on>
+            <value>atlas</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>New Hire Training</label>
+            <language>en</language>
+            <name>x_saag_sbs_concier_sbs_case</name>
+            <sequence/>
+            <sys_created_by>E0346167</sys_created_by>
+            <sys_created_on>2017-12-12 05:44:06</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>bc185eac37cf870008ae13b853990e76</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>E0346167</sys_updated_by>
+            <sys_updated_on>2017-12-12 05:44:06</sys_updated_on>
+            <value>new hire training</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Process Training</label>
+            <language>en</language>
+            <name>x_saag_sbs_concier_sbs_case</name>
+            <sequence/>
+            <sys_created_by>E0346167</sys_created_by>
+            <sys_created_on>2017-12-12 05:45:08</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>005812ac37cf870008ae13b853990e9e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>E0346167</sys_updated_by>
+            <sys_updated_on>2017-12-12 05:45:08</sys_updated_on>
+            <value>process training</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Report request</label>
+            <language>en</language>
+            <name>x_saag_sbs_concier_sbs_case</name>
+            <sequence/>
+            <sys_created_by>E0346167</sys_created_by>
+            <sys_created_on>2017-12-12 03:16:45</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>317675a8378f870008ae13b853990e2c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>E0346167</sys_updated_by>
+            <sys_updated_on>2017-12-12 03:16:45</sys_updated_on>
+            <value>report request</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>System Training</label>
+            <language>en</language>
+            <name>x_saag_sbs_concier_sbs_case</name>
+            <sequence/>
+            <sys_created_by>E0346167</sys_created_by>
+            <sys_created_on>2017-12-12 03:16:17</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>794639a8378f870008ae13b853990ed3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>E0346167</sys_updated_by>
+            <sys_updated_on>2017-12-12 03:16:17</sys_updated_on>
+            <value>system training</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>category</element>
+            <name>x_saag_sbs_concier_sbs_case</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>E0346167</sys_created_by>
+            <sys_created_on>2017-12-12 03:16:17</sys_created_on>
+            <sys_id>aafd8ef5db170300cdc6d450cf96194f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>category</sys_name>
+            <sys_package display_value="Sanofi SBS Helpdesk" source="x_saag_sbs_concier">b83950904f0f0b00f2a20e428110c7a4</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Sanofi SBS Helpdesk">b83950904f0f0b00f2a20e428110c7a4</sys_scope>
+            <sys_update_name>sys_choice_x_saag_sbs_concier_sbs_case_category</sys_update_name>
+            <sys_updated_by>E0346167</sys_updated_by>
+            <sys_updated_on>2017-12-12 03:16:17</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

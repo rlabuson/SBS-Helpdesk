@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="c40e0239db170300cdc6d450cf96195f" sys_domain="global" table="new_call" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>E0346167</sys_created_by>
+            <sys_created_on>2017-12-28 12:27:41</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>000e0239db170300cdc6d450cf961960</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="new_call" name="new_call" sys_domain="global" view="Default view">c40e0239db170300cdc6d450cf96195f</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="new_call" sys_domain="global" view="Default view">45f05a65eb000100a04d4910f206fef2</sys_ui_section>
+            <sys_updated_by>E0346167</sys_updated_by>
+            <sys_updated_on>2017-12-28 12:27:41</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>E0346167</sys_created_by>
+            <sys_created_on>2017-12-28 12:27:41</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>880e0239db170300cdc6d450cf961960</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="new_call" name="new_call" sys_domain="global" view="Default view">c40e0239db170300cdc6d450cf96195f</sys_ui_form>
+            <sys_ui_section display_value="">fdfbddd04fcf0b00f2a20e428110c799</sys_ui_section>
+            <sys_updated_by>E0346167</sys_updated_by>
+            <sys_updated_on>2017-12-28 12:27:41</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>new_call</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>E0346167</sys_created_by>
+            <sys_created_on>2017-12-28 12:27:41</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c40e0239db170300cdc6d450cf96195f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>new_call</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Service Desk Call" source="com.snc.service_desk_call">883df05fdb7a0300cdc6d450cf96198b</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Sanofi SBS Helpdesk">b83950904f0f0b00f2a20e428110c7a4</sys_scope>
+            <sys_update_name>sys_ui_form_sections_c40e0239db170300cdc6d450cf96195f</sys_update_name>
+            <sys_updated_by>E0346167</sys_updated_by>
+            <sys_updated_on>2017-12-28 12:27:41</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

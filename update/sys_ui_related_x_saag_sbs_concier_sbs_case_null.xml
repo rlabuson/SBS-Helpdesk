@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_related sys_domain="global" table="x_saag_sbs_concier_sbs_case" version="2" view="">
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="SBS Case - Default view" name="x_saag_sbs_concier_sbs_case" related_list="NULL" sys_domain="global" view="Default view">478a08b14f130b40f2a20e428110c797</list_id>
+            <order_by/>
+            <position>0</position>
+            <related_list/>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>E0346167</sys_created_by>
+            <sys_created_on>2017-12-28 02:53:22</sys_created_on>
+            <sys_id>838a08b14f130b40f2a20e428110c798</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>E0346167</sys_updated_by>
+            <sys_updated_on>2017-12-28 02:53:22</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list action="INSERT_OR_UPDATE">
+            <calculated_name>SBS Case - Default view</calculated_name>
+            <filter/>
+            <name>x_saag_sbs_concier_sbs_case</name>
+            <order_by/>
+            <position/>
+            <related_list/>
+            <sys_class_name>sys_ui_related_list</sys_class_name>
+            <sys_created_by>E0346167</sys_created_by>
+            <sys_created_on>2017-12-28 02:53:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>478a08b14f130b40f2a20e428110c797</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>SBS Case - Default view</sys_name>
+            <sys_package display_value="Sanofi SBS Helpdesk" source="x_saag_sbs_concier">b83950904f0f0b00f2a20e428110c7a4</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Sanofi SBS Helpdesk">b83950904f0f0b00f2a20e428110c7a4</sys_scope>
+            <sys_update_name>sys_ui_related_x_saag_sbs_concier_sbs_case_null</sys_update_name>
+            <sys_updated_by>E0346167</sys_updated_by>
+            <sys_updated_on>2017-12-28 02:53:22</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_related_list>
+    </sys_ui_related>
+</record_update>

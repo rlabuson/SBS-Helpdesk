@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysevent_email_template">
+    <sysevent_email_template action="INSERT_OR_UPDATE">
+        <collection>x_saag_sbs_concier_sbs_case</collection>
+        <email_layout/>
+        <message/>
+        <message_html><![CDATA[<p>Dear ${opened_for.name},</p>
+<p>&nbsp;</p>
+<p>Your case has been logged in in the system.&nbsp;Please find the details below for your reference.</p>
+<p>Case Number: ${number}</p>
+<p>Case&nbsp;Opened by: ${opened_by}</p>
+<p>Short description: ${short_description}</p>
+<p>Click this link for further information: ${URI_REF}</p>
+<p>&nbsp;</p>
+<p>Sincerely.</p>
+<p><img style="align: baseline;" title="" src="sys_attachment.do?sys_id=c46fd8e2db87c3009e7eda94ce9619f4" alt="" align="baseline" border="0" hspace="-1" vspace="0" /></p>]]></message_html>
+        <message_list/>
+        <message_text/>
+        <name>SBS Case Open General</name>
+        <sms_alternate/>
+        <subject/>
+        <sys_class_name>sysevent_email_template</sys_class_name>
+        <sys_created_by>E0346167</sys_created_by>
+        <sys_created_on>2017-12-18 02:04:31</sys_created_on>
+        <sys_id>e8bb1ce2db87c3009e7eda94ce961947</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>SBS Case Open General</sys_name>
+        <sys_package display_value="Sanofi SBS Helpdesk" source="x_saag_sbs_concier">b83950904f0f0b00f2a20e428110c7a4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Sanofi SBS Helpdesk">b83950904f0f0b00f2a20e428110c7a4</sys_scope>
+        <sys_update_name>sysevent_email_template_e8bb1ce2db87c3009e7eda94ce961947</sys_update_name>
+        <sys_updated_by>E0346167</sys_updated_by>
+        <sys_updated_on>2017-12-28 03:13:44</sys_updated_on>
+        <sys_version>2</sys_version>
+    </sysevent_email_template>
+</record_update>

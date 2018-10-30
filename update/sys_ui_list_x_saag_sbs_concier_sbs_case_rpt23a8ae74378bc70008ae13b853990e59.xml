@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="x_saag_sbs_concier_sbs_case" version="2" view="RPT23a8ae74378bc70008ae13b853990e59">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>opened_at</element>
+            <list_id display_value="x_saag_sbs_concier_sbs_case" element="NULL" name="x_saag_sbs_concier_sbs_case" parent="NULL" relationship="NULL" sys_domain="global" view="37a826fc378bc70008ae13b853990e98">de19599d4fcbcb00f2a20e428110c721</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>E0346167</sys_created_by>
+            <sys_created_on>2017-12-14 09:03:53</sys_created_on>
+            <sys_id>9619599d4fcbcb00f2a20e428110c722</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>E0346167</sys_updated_by>
+            <sys_updated_on>2017-12-14 09:03:53</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>number</element>
+            <list_id display_value="x_saag_sbs_concier_sbs_case" element="NULL" name="x_saag_sbs_concier_sbs_case" parent="NULL" relationship="NULL" sys_domain="global" view="37a826fc378bc70008ae13b853990e98">de19599d4fcbcb00f2a20e428110c721</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>E0346167</sys_created_by>
+            <sys_created_on>2017-12-14 09:03:53</sys_created_on>
+            <sys_id>1a19599d4fcbcb00f2a20e428110c722</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>E0346167</sys_updated_by>
+            <sys_updated_on>2017-12-14 09:03:53</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>site</element>
+            <list_id display_value="x_saag_sbs_concier_sbs_case" element="NULL" name="x_saag_sbs_concier_sbs_case" parent="NULL" relationship="NULL" sys_domain="global" view="37a826fc378bc70008ae13b853990e98">de19599d4fcbcb00f2a20e428110c721</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>E0346167</sys_created_by>
+            <sys_created_on>2017-12-14 09:03:53</sys_created_on>
+            <sys_id>9a19599d4fcbcb00f2a20e428110c722</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>E0346167</sys_updated_by>
+            <sys_updated_on>2017-12-14 09:03:53</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>process</element>
+            <list_id display_value="x_saag_sbs_concier_sbs_case" element="NULL" name="x_saag_sbs_concier_sbs_case" parent="NULL" relationship="NULL" sys_domain="global" view="37a826fc378bc70008ae13b853990e98">de19599d4fcbcb00f2a20e428110c721</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>E0346167</sys_created_by>
+            <sys_created_on>2017-12-14 09:03:53</sys_created_on>
+            <sys_id>1e19599d4fcbcb00f2a20e428110c722</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>E0346167</sys_updated_by>
+            <sys_updated_on>2017-12-14 09:03:53</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>system</element>
+            <list_id display_value="x_saag_sbs_concier_sbs_case" element="NULL" name="x_saag_sbs_concier_sbs_case" parent="NULL" relationship="NULL" sys_domain="global" view="37a826fc378bc70008ae13b853990e98">de19599d4fcbcb00f2a20e428110c721</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>E0346167</sys_created_by>
+            <sys_created_on>2017-12-14 09:03:53</sys_created_on>
+            <sys_id>9e19599d4fcbcb00f2a20e428110c722</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>E0346167</sys_updated_by>
+            <sys_updated_on>2017-12-14 09:03:53</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>opened_for</element>
+            <list_id display_value="x_saag_sbs_concier_sbs_case" element="NULL" name="x_saag_sbs_concier_sbs_case" parent="NULL" relationship="NULL" sys_domain="global" view="37a826fc378bc70008ae13b853990e98">de19599d4fcbcb00f2a20e428110c721</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>5</position>
+            <sum>false</sum>
+            <sys_created_by>E0346167</sys_created_by>
+            <sys_created_on>2017-12-14 09:03:53</sys_created_on>
+            <sys_id>1219599d4fcbcb00f2a20e428110c723</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>E0346167</sys_updated_by>
+            <sys_updated_on>2017-12-14 09:03:53</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>customer_name</element>
+            <list_id display_value="x_saag_sbs_concier_sbs_case" element="NULL" name="x_saag_sbs_concier_sbs_case" parent="NULL" relationship="NULL" sys_domain="global" view="37a826fc378bc70008ae13b853990e98">de19599d4fcbcb00f2a20e428110c721</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>6</position>
+            <sum>false</sum>
+            <sys_created_by>E0346167</sys_created_by>
+            <sys_created_on>2017-12-14 09:03:53</sys_created_on>
+            <sys_id>9219599d4fcbcb00f2a20e428110c723</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>E0346167</sys_updated_by>
+            <sys_updated_on>2017-12-14 09:03:53</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>short_description</element>
+            <list_id display_value="x_saag_sbs_concier_sbs_case" element="NULL" name="x_saag_sbs_concier_sbs_case" parent="NULL" relationship="NULL" sys_domain="global" view="37a826fc378bc70008ae13b853990e98">de19599d4fcbcb00f2a20e428110c721</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>7</position>
+            <sum>false</sum>
+            <sys_created_by>E0346167</sys_created_by>
+            <sys_created_on>2017-12-14 09:03:53</sys_created_on>
+            <sys_id>1619599d4fcbcb00f2a20e428110c723</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>E0346167</sys_updated_by>
+            <sys_updated_on>2017-12-14 09:03:53</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>state</element>
+            <list_id display_value="x_saag_sbs_concier_sbs_case" element="NULL" name="x_saag_sbs_concier_sbs_case" parent="NULL" relationship="NULL" sys_domain="global" view="37a826fc378bc70008ae13b853990e98">de19599d4fcbcb00f2a20e428110c721</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>8</position>
+            <sum>false</sum>
+            <sys_created_by>E0346167</sys_created_by>
+            <sys_created_on>2017-12-14 09:03:53</sys_created_on>
+            <sys_id>9619599d4fcbcb00f2a20e428110c723</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>E0346167</sys_updated_by>
+            <sys_updated_on>2017-12-14 09:03:53</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>x_saag_sbs_concier_sbs_case</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>E0346167</sys_created_by>
+            <sys_created_on>2017-12-14 09:03:53</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>de19599d4fcbcb00f2a20e428110c721</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_saag_sbs_concier_sbs_case</sys_name>
+            <sys_package display_value="Sanofi SBS Helpdesk" source="x_saag_sbs_concier">b83950904f0f0b00f2a20e428110c7a4</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Sanofi SBS Helpdesk">b83950904f0f0b00f2a20e428110c7a4</sys_scope>
+            <sys_update_name>sys_ui_list_x_saag_sbs_concier_sbs_case_RPT23a8ae74378bc70008ae13b853990e59</sys_update_name>
+            <sys_updated_by>E0346167</sys_updated_by>
+            <sys_updated_on>2017-12-14 09:03:53</sys_updated_on>
+            <sys_user/>
+            <view display_value="Rpt23a8ae74378bc70008ae13b853990e59" name="RPT23a8ae74378bc70008ae13b853990e59">37a826fc378bc70008ae13b853990e98</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>

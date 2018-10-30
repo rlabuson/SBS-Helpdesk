@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_embedded_help_content">
+    <sys_embedded_help_content action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category>benchmarks</category>
+        <content><![CDATA[    <h1 class="title topictitle1">Enable a benchmark KPI</h1>        <div class="body taskbody">        <div class="section context" id="zz_bm_setup-normal__context_bpq_zyl_d1b">            <p class="p">You must opt in to the Benchmarks application to enable a benchmark KPI. To opt in,                read the <span class="ph uicontrol">Opt-In Agreement</span>, select the check box to accept,                and click <span class="ph uicontrol">Opt-In</span>.</p>            <p class="p">Once you have opted in, enable a benchmark KPI.</p>        </div>        <ol class="ol steps"><li class="li step stepexpand">                <span class="ph cmd">Click the slider for the KPI to enable or disable.</span>            </li><li class="li step stepexpand"><strong>Optional: </strong>                <span class="ph cmd">Click the pencil icon next to a KPI to view more information about the KPI,                    including the description, conditions, and table from which the data is                    collected.</span>            </li><li class="li step stepexpand">                <span class="ph cmd">Click <span class="ph uicontrol">Save</span>.</span>                <div class="itemgroup info">Allow one to two months for aggregate monthly data to accurately reflect                    changes made to KPI status. <div class="note note"><span class="notetitle">Note:</span> In some environments, resolved incident KPIs                        may require further configuration to retrieve resolved incident                    data.</div></div>            </li></ol>    </div>    <div class="related-links"><div class="relinfo"><div class="reltitle">Related information<br /><div><a class="link" href="https://docs.servicenow.com/?context&#61;CSHelp:Benchmarks-Configure-Resolved-KPI&amp;version&#61;jakarta" target="_blank" rel="nofollow">Configure resolved incident Benchmarks KPIs</a></div></div></div></div>]]></content>
+        <last_sync>2017-12-13 16:41:04</last_sync>
+        <modifier>normal</modifier>
+        <name>$bm_setup-normal</name>
+        <page>$bm_setup</page>
+        <product>1</product>
+        <qualifier/>
+        <role/>
+        <role_order>1000</role_order>
+        <snc_created>true</snc_created>
+        <sys_class_name>sys_embedded_help_content</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2017-12-13 16:41:04</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>a928f18d4f43cb00f2a20e428110c7b8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>$bm_setup-normal</sys_name>
+        <sys_package display_value="Sanofi SBS Helpdesk" source="x_saag_sbs_concier">b83950904f0f0b00f2a20e428110c7a4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Sanofi SBS Helpdesk">b83950904f0f0b00f2a20e428110c7a4</sys_scope>
+        <sys_update_name>sys_embedded_help_content_a928f18d4f43cb00f2a20e428110c7b8</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2017-12-13 16:41:04</sys_updated_on>
+        <version>j</version>
+    </sys_embedded_help_content>
+    <sys_translated_text action="delete_multiple" query="documentkey=a928f18d4f43cb00f2a20e428110c7b8"/>
+</record_update>

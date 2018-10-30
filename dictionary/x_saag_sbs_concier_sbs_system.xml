@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="SBS System" max_length="40" name="x_saag_sbs_concier_sbs_system" type="collection">
+        <element default="true" label="Active" max_length="40" name="active" type="boolean"/>
+        <element label="SBS process" mandatory="true" max_length="32" name="sbs_process" reference="x_saag_sbs_concier_sbs_process" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="reference"/>
+        <element display="true" label="System name" mandatory="true" max_length="40" name="system_name" type="string"/>
+        <index name="index">
+            <element name="sbs_process"/>
+        </index>
+    </element>
+</database>

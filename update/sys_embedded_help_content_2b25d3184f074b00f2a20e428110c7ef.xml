@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_embedded_help_content">
+    <sys_embedded_help_content action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category>hr</category>
+        <content><![CDATA[  <h1 class="title topictitle1">HR criteria</h1>    <div class="body conbody">    <div class="p"><span class="ph">HR criteria defines the audience for            HR content or cases. You can make information available to or create an HR case for            specific groups, individuals, or to all employees.</span><div class="note note"><span class="notetitle">Note:</span> Sort the list by the <span class="ph uicontrol">Updated</span> column for easy identification        of the new records.</div>    </div>  </div>]]></content>
+        <last_sync>2017-12-26 15:32:06</last_sync>
+        <modifier>normal</modifier>
+        <name>sn_hr_core_criteria_list-normal</name>
+        <page>sn_hr_core_criteria_list</page>
+        <product>1</product>
+        <qualifier/>
+        <role/>
+        <role_order>1000</role_order>
+        <snc_created>true</snc_created>
+        <sys_class_name>sys_embedded_help_content</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2017-12-11 15:32:05</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>2b25d3184f074b00f2a20e428110c7ef</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>sn_hr_core_criteria_list-normal</sys_name>
+        <sys_package display_value="Sanofi SBS Helpdesk" source="x_saag_sbs_concier">b83950904f0f0b00f2a20e428110c7a4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Sanofi SBS Helpdesk">b83950904f0f0b00f2a20e428110c7a4</sys_scope>
+        <sys_update_name>sys_embedded_help_content_2b25d3184f074b00f2a20e428110c7ef</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2017-12-26 15:32:06</sys_updated_on>
+        <version>j</version>
+    </sys_embedded_help_content>
+    <sys_translated_text action="delete_multiple" query="documentkey=2b25d3184f074b00f2a20e428110c7ef"/>
+</record_update>

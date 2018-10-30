@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_embedded_help_content">
+    <sys_embedded_help_content action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category/>
+        <content><![CDATA[ <h1 class="title topictitle1">Indicators</h1>  <div class="body conbody">  <p class="p"><span class="ph">Indicators are statistics that businesses track to measure   current conditions and to forecast trends. They provide you with key information on how your   business is doing.</span></p>  <p class="p">You can present them in scorecards and in user-friendly dashboards.</p> </div>]]></content>
+        <last_sync>2017-12-27 08:57:09</last_sync>
+        <modifier>normal</modifier>
+        <name>pa_indicators_list-normal</name>
+        <page>pa_indicators_list</page>
+        <product>1</product>
+        <qualifier/>
+        <role/>
+        <role_order>1000</role_order>
+        <snc_created>true</snc_created>
+        <sys_class_name>sys_embedded_help_content</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2017-12-12 08:57:06</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>27548fe83743c70008ae13b853990e7e</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>pa_indicators_list-normal</sys_name>
+        <sys_package display_value="Sanofi SBS Helpdesk" source="x_saag_sbs_concier">b83950904f0f0b00f2a20e428110c7a4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Sanofi SBS Helpdesk">b83950904f0f0b00f2a20e428110c7a4</sys_scope>
+        <sys_update_name>sys_embedded_help_content_27548fe83743c70008ae13b853990e7e</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2017-12-27 08:57:09</sys_updated_on>
+        <version>j</version>
+    </sys_embedded_help_content>
+    <sys_translated_text action="delete_multiple" query="documentkey=27548fe83743c70008ae13b853990e7e"/>
+</record_update>

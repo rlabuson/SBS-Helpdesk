@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_report_users_groups">
+    <sys_report_users_groups action="INSERT_OR_UPDATE">
+        <group_id/>
+        <report_id display_value="Reopened Cases">a26a6efc378bc70008ae13b853990ee9</report_id>
+        <sys_class_name>sys_report_users_groups</sys_class_name>
+        <sys_created_by>E0346167</sys_created_by>
+        <sys_created_on>2017-12-13 01:42:12</sys_created_on>
+        <sys_id>2a6a6efc378bc70008ae13b853990ee9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>a26a6efc378bc70008ae13b853990ee9</sys_name>
+        <sys_package display_value="Sanofi SBS Helpdesk" source="x_saag_sbs_concier">b83950904f0f0b00f2a20e428110c7a4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Sanofi SBS Helpdesk">b83950904f0f0b00f2a20e428110c7a4</sys_scope>
+        <sys_update_name>sys_report_users_groups_2a6a6efc378bc70008ae13b853990ee9</sys_update_name>
+        <sys_updated_by>E0346167</sys_updated_by>
+        <sys_updated_on>2017-12-13 01:42:12</sys_updated_on>
+        <user_id display_value="Ramilo LABUSON">018c6878db720300cdc6d450cf961958</user_id>
+    </sys_report_users_groups>
+</record_update>

@@ -1,0 +1,647 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="customer_function" table="x_saag_sbs_concier_sbs_case" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>customer_function</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Caterer</label>
+            <language>en</language>
+            <name>x_saag_sbs_concier_sbs_case</name>
+            <sequence/>
+            <sys_created_by>E0346167</sys_created_by>
+            <sys_created_on>2017-12-12 05:57:47</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>424b92ac37cf870008ae13b853990e97</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>E0346167</sys_updated_by>
+            <sys_updated_on>2017-12-12 05:57:47</sys_updated_on>
+            <value>caterer</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>customer_function</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>CHC</label>
+            <language>en</language>
+            <name>x_saag_sbs_concier_sbs_case</name>
+            <sequence/>
+            <sys_created_by>E0346167</sys_created_by>
+            <sys_created_on>2017-12-12 05:57:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f65bdeac37cf870008ae13b853990ea4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>E0346167</sys_updated_by>
+            <sys_updated_on>2017-12-12 05:57:55</sys_updated_on>
+            <value>chc</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>customer_function</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Controller</label>
+            <language>en</language>
+            <name>x_saag_sbs_concier_sbs_case</name>
+            <sequence/>
+            <sys_created_by>E0346167</sys_created_by>
+            <sys_created_on>2017-12-12 05:58:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ca6bdeac37cf870008ae13b853990ea8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>E0346167</sys_updated_by>
+            <sys_updated_on>2017-12-12 05:58:09</sys_updated_on>
+            <value>controller</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>customer_function</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Corporate Security</label>
+            <language>en</language>
+            <name>x_saag_sbs_concier_sbs_case</name>
+            <sequence/>
+            <sys_created_by>E0346167</sys_created_by>
+            <sys_created_on>2017-12-12 05:58:19</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ec7b96ec37cf870008ae13b853990ebc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>E0346167</sys_updated_by>
+            <sys_updated_on>2017-12-12 05:58:19</sys_updated_on>
+            <value>corporate security</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>customer_function</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Country Procurement Head - ID</label>
+            <language>en</language>
+            <name>x_saag_sbs_concier_sbs_case</name>
+            <sequence/>
+            <sys_created_by>E0346167</sys_created_by>
+            <sys_created_on>2017-12-12 05:58:30</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>077b1eac37cf870008ae13b853990e87</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>E0346167</sys_updated_by>
+            <sys_updated_on>2017-12-12 05:58:30</sys_updated_on>
+            <value>country procurement head - id</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>customer_function</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>CSU</label>
+            <language>en</language>
+            <name>x_saag_sbs_concier_sbs_case</name>
+            <sequence/>
+            <sys_created_by>E0346167</sys_created_by>
+            <sys_created_on>2017-12-12 05:58:40</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ad8b52ec37cf870008ae13b853990ed4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>E0346167</sys_updated_by>
+            <sys_updated_on>2017-12-12 05:58:40</sys_updated_on>
+            <value>csu</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>customer_function</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>DCV Business Unit</label>
+            <language>en</language>
+            <name>x_saag_sbs_concier_sbs_case</name>
+            <sequence/>
+            <sys_created_by>E0346167</sys_created_by>
+            <sys_created_on>2017-12-12 05:58:51</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d09b9e203703c70008ae13b853990ece</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>E0346167</sys_updated_by>
+            <sys_updated_on>2017-12-12 05:58:51</sys_updated_on>
+            <value>dcv business unit</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>customer_function</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Established BU manager</label>
+            <language>en</language>
+            <name>x_saag_sbs_concier_sbs_case</name>
+            <sequence/>
+            <sys_created_by>E0346167</sys_created_by>
+            <sys_created_on>2017-12-12 05:59:02</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>879b12603703c70008ae13b853990e4f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>E0346167</sys_updated_by>
+            <sys_updated_on>2017-12-12 05:59:02</sys_updated_on>
+            <value>established bu manager</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>customer_function</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Established Products</label>
+            <language>en</language>
+            <name>x_saag_sbs_concier_sbs_case</name>
+            <sequence/>
+            <sys_created_by>E0346167</sys_created_by>
+            <sys_created_on>2017-12-12 05:59:13</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a5abde203703c70008ae13b853990ed7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>E0346167</sys_updated_by>
+            <sys_updated_on>2017-12-12 05:59:13</sys_updated_on>
+            <value>established products</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>customer_function</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Finance Controlling</label>
+            <language>en</language>
+            <name>x_saag_sbs_concier_sbs_case</name>
+            <sequence/>
+            <sys_created_by>E0346167</sys_created_by>
+            <sys_created_on>2017-12-12 05:59:24</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9cbb16203703c70008ae13b853990e39</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>E0346167</sys_updated_by>
+            <sys_updated_on>2017-12-12 05:59:24</sys_updated_on>
+            <value>finance controlling</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>customer_function</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>GEM</label>
+            <language>en</language>
+            <name>x_saag_sbs_concier_sbs_case</name>
+            <sequence/>
+            <sys_created_by>E0346167</sys_created_by>
+            <sys_created_on>2017-12-12 05:59:33</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a6bb5e6c37cf870008ae13b853990e64</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>E0346167</sys_updated_by>
+            <sys_updated_on>2017-12-12 05:59:33</sys_updated_on>
+            <value>gem</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>customer_function</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Genzyme</label>
+            <language>en</language>
+            <name>x_saag_sbs_concier_sbs_case</name>
+            <sequence/>
+            <sys_created_by>E0346167</sys_created_by>
+            <sys_created_on>2017-12-12 05:59:48</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9ecbda203703c70008ae13b853990eaf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>E0346167</sys_updated_by>
+            <sys_updated_on>2017-12-12 05:59:48</sys_updated_on>
+            <value>genzyme</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>customer_function</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>HR</label>
+            <language>en</language>
+            <name>x_saag_sbs_concier_sbs_case</name>
+            <sequence/>
+            <sys_created_by>E0346167</sys_created_by>
+            <sys_created_on>2017-12-12 05:59:58</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>70db9e203703c70008ae13b853990ec9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>E0346167</sys_updated_by>
+            <sys_updated_on>2017-12-12 05:59:58</sys_updated_on>
+            <value>hr</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>customer_function</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Industrial Affairs</label>
+            <language>en</language>
+            <name>x_saag_sbs_concier_sbs_case</name>
+            <sequence/>
+            <sys_created_by>E0346167</sys_created_by>
+            <sys_created_on>2017-12-12 06:00:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d3dbde203703c70008ae13b853990e1f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>E0346167</sys_updated_by>
+            <sys_updated_on>2017-12-12 06:00:09</sys_updated_on>
+            <value>industrial affairs</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>customer_function</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Internal Audit</label>
+            <language>en</language>
+            <name>x_saag_sbs_concier_sbs_case</name>
+            <sequence/>
+            <sys_created_by>E0346167</sys_created_by>
+            <sys_created_on>2017-12-12 06:00:20</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>46ebda203703c70008ae13b853990e9f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>E0346167</sys_updated_by>
+            <sys_updated_on>2017-12-12 06:00:20</sys_updated_on>
+            <value>internal audit</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>customer_function</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Internal Control</label>
+            <language>en</language>
+            <name>x_saag_sbs_concier_sbs_case</name>
+            <sequence/>
+            <sys_created_by>E0346167</sys_created_by>
+            <sys_created_on>2017-12-12 06:00:30</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>68fbd2603703c70008ae13b853990ee7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>E0346167</sys_updated_by>
+            <sys_updated_on>2017-12-12 06:00:30</sys_updated_on>
+            <value>internal control</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>customer_function</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>ITS</label>
+            <language>en</language>
+            <name>x_saag_sbs_concier_sbs_case</name>
+            <sequence/>
+            <sys_created_by>E0346167</sys_created_by>
+            <sys_created_on>2017-12-12 05:57:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>43b912203703c70008ae13b853990e26</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>E0346167</sys_updated_by>
+            <sys_updated_on>2017-12-12 05:57:11</sys_updated_on>
+            <value>its</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>customer_function</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Legal</label>
+            <language>en</language>
+            <name>x_saag_sbs_concier_sbs_case</name>
+            <sequence/>
+            <sys_created_by>E0346167</sys_created_by>
+            <sys_created_on>2017-12-12 06:00:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>eafb1e203703c70008ae13b853990e48</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>E0346167</sys_updated_by>
+            <sys_updated_on>2017-12-12 06:00:39</sys_updated_on>
+            <value>legal</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>customer_function</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Lenovo</label>
+            <language>en</language>
+            <name>x_saag_sbs_concier_sbs_case</name>
+            <sequence/>
+            <sys_created_by>E0346167</sys_created_by>
+            <sys_created_on>2017-12-12 06:00:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>050cd2603703c70008ae13b853990e15</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>E0346167</sys_updated_by>
+            <sys_updated_on>2017-12-12 06:00:49</sys_updated_on>
+            <value>lenovo</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>customer_function</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Management</label>
+            <language>en</language>
+            <name>x_saag_sbs_concier_sbs_case</name>
+            <sequence/>
+            <sys_created_by>E0346167</sys_created_by>
+            <sys_created_on>2017-12-12 06:00:58</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>df0cd2603703c70008ae13b853990e1b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>E0346167</sys_updated_by>
+            <sys_updated_on>2017-12-12 06:00:58</sys_updated_on>
+            <value>management</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>customer_function</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Marketing</label>
+            <language>en</language>
+            <name>x_saag_sbs_concier_sbs_case</name>
+            <sequence/>
+            <sys_created_by>E0346167</sys_created_by>
+            <sys_created_on>2017-12-12 06:01:15</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6b1cd2603703c70008ae13b853990e47</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>E0346167</sys_updated_by>
+            <sys_updated_on>2017-12-12 06:01:15</sys_updated_on>
+            <value>marketing</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>customer_function</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Medical- CHC</label>
+            <language>en</language>
+            <name>x_saag_sbs_concier_sbs_case</name>
+            <sequence/>
+            <sys_created_by>E0346167</sys_created_by>
+            <sys_created_on>2017-12-12 06:01:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0e2c96603703c70008ae13b853990e0a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>E0346167</sys_updated_by>
+            <sys_updated_on>2017-12-12 06:01:26</sys_updated_on>
+            <value>medical- chc</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>customer_function</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Public Affair</label>
+            <language>en</language>
+            <name>x_saag_sbs_concier_sbs_case</name>
+            <sequence/>
+            <sys_created_by>E0346167</sys_created_by>
+            <sys_created_on>2017-12-12 06:01:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>383cde203703c70008ae13b853990e2c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>E0346167</sys_updated_by>
+            <sys_updated_on>2017-12-12 06:01:36</sys_updated_on>
+            <value>public affair</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>customer_function</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Quality and compliance</label>
+            <language>en</language>
+            <name>x_saag_sbs_concier_sbs_case</name>
+            <sequence/>
+            <sys_created_by>E0346167</sys_created_by>
+            <sys_created_on>2017-12-12 06:01:47</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>db3c96603703c70008ae13b853990e17</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>E0346167</sys_updated_by>
+            <sys_updated_on>2017-12-12 06:01:47</sys_updated_on>
+            <value>quality and compliance</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>customer_function</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>R and D</label>
+            <language>en</language>
+            <name>x_saag_sbs_concier_sbs_case</name>
+            <sequence/>
+            <sys_created_by>E0346167</sys_created_by>
+            <sys_created_on>2017-12-12 06:01:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>354c96603703c70008ae13b853990e7b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>E0346167</sys_updated_by>
+            <sys_updated_on>2017-12-12 06:01:57</sys_updated_on>
+            <value>r and d</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>customer_function</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Regional Finance Services</label>
+            <language>en</language>
+            <name>x_saag_sbs_concier_sbs_case</name>
+            <sequence/>
+            <sys_created_by>E0346167</sys_created_by>
+            <sys_created_on>2017-12-12 06:02:08</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>685cd2603703c70008ae13b853990efd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>E0346167</sys_updated_by>
+            <sys_updated_on>2017-12-12 06:02:08</sys_updated_on>
+            <value>regional finance services</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>customer_function</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Regional Pasteur</label>
+            <language>en</language>
+            <name>x_saag_sbs_concier_sbs_case</name>
+            <sequence/>
+            <sys_created_by>E0346167</sys_created_by>
+            <sys_created_on>2017-12-12 06:02:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8c6c56603703c70008ae13b853990e00</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>E0346167</sys_updated_by>
+            <sys_updated_on>2017-12-12 06:02:23</sys_updated_on>
+            <value>regional pasteur</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>customer_function</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Sales</label>
+            <language>en</language>
+            <name>x_saag_sbs_concier_sbs_case</name>
+            <sequence/>
+            <sys_created_by>E0346167</sys_created_by>
+            <sys_created_on>2017-12-12 06:02:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c36c1a603703c70008ae13b853990eaa</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>E0346167</sys_updated_by>
+            <sys_updated_on>2017-12-12 06:02:35</sys_updated_on>
+            <value>sales</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>customer_function</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>SBS</label>
+            <language>en</language>
+            <name>x_saag_sbs_concier_sbs_case</name>
+            <sequence/>
+            <sys_created_by>E0346167</sys_created_by>
+            <sys_created_on>2017-12-12 06:02:45</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2d7cd2603703c70008ae13b853990eee</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>E0346167</sys_updated_by>
+            <sys_updated_on>2017-12-12 06:02:45</sys_updated_on>
+            <value>sbs</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>customer_function</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Security</label>
+            <language>en</language>
+            <name>x_saag_sbs_concier_sbs_case</name>
+            <sequence/>
+            <sys_created_by>E0346167</sys_created_by>
+            <sys_created_on>2017-12-12 06:02:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>408c96603703c70008ae13b853990e72</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>E0346167</sys_updated_by>
+            <sys_updated_on>2017-12-12 06:02:55</sys_updated_on>
+            <value>security</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>customer_function</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Service Delivery</label>
+            <language>en</language>
+            <name>x_saag_sbs_concier_sbs_case</name>
+            <sequence/>
+            <sys_created_by>E0346167</sys_created_by>
+            <sys_created_on>2017-12-12 06:03:08</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8f8c16603703c70008ae13b853990e2f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>E0346167</sys_updated_by>
+            <sys_updated_on>2017-12-12 06:03:08</sys_updated_on>
+            <value>service delivery</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>customer_function</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Supply Chain</label>
+            <language>en</language>
+            <name>x_saag_sbs_concier_sbs_case</name>
+            <sequence/>
+            <sys_created_by>E0346167</sys_created_by>
+            <sys_created_on>2017-12-12 06:03:19</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e19cd6603703c70008ae13b853990e91</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>E0346167</sys_updated_by>
+            <sys_updated_on>2017-12-12 06:03:19</sys_updated_on>
+            <value>supply chain</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>customer_function</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Vaccine</label>
+            <language>en</language>
+            <name>x_saag_sbs_concier_sbs_case</name>
+            <sequence/>
+            <sys_created_by>E0346167</sys_created_by>
+            <sys_created_on>2017-12-12 06:03:28</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>40ac1a603703c70008ae13b853990eb8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>E0346167</sys_updated_by>
+            <sys_updated_on>2017-12-12 06:03:28</sys_updated_on>
+            <value>vaccine</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>customer_function</element>
+            <name>x_saag_sbs_concier_sbs_case</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>E0346167</sys_created_by>
+            <sys_created_on>2017-12-12 05:57:11</sys_created_on>
+            <sys_id>2efd8ef5db170300cdc6d450cf96195a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>customer_function</sys_name>
+            <sys_package display_value="Sanofi SBS Helpdesk" source="x_saag_sbs_concier">b83950904f0f0b00f2a20e428110c7a4</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Sanofi SBS Helpdesk">b83950904f0f0b00f2a20e428110c7a4</sys_scope>
+            <sys_update_name>sys_choice_x_saag_sbs_concier_sbs_case_customer_function</sys_update_name>
+            <sys_updated_by>E0346167</sys_updated_by>
+            <sys_updated_on>2017-12-12 05:57:11</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

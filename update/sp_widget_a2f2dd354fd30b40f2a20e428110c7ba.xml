@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[function ($scope, spUtil) {
+		
+	spUtil.recordWatch($scope, $scope.data.table, "sys_id=" + $scope.data.sys_id); 
+}]]></client_script>
+        <controller_as>c</controller_as>
+        <css>.options-btn {
+    border:none;
+    background-image:none;
+    background-color:transparent;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}</css>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>false</has_preview>
+        <id>helpdesk_ticket_fields</id>
+        <internal>false</internal>
+        <link/>
+        <name>Helpdesk Ticket Fields</name>
+        <option_schema>[&#13;
+   {&#13;
+      "name": "pickup_msg",&#13;
+      "label": "Pickup message",&#13;
+      "type": "string"&#13;
+   }&#13;
+]</option_schema>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function(){
+	data.pickupMsg = gs.getMessage(options.pickup_msg);
+	var gr = $sp.getRecord();
+	if (gr == null)
+		return;
+	
+	data.canRead = gr.canRead();
+	if (!data.canRead) 
+		return;
+
+	var agent = "";
+	var a = $sp.getField(gr, 'assigned_to');
+	if (a != null)
+		agent = a.display_value;
+
+	var fields = $sp.getFields(gr, 'number,short_description,state,priority,sys_created_on,resolution_description,resolved_at');
+	//if ((gr.getValue('state')) == '7')
+		//fields.push($sp.getField(gr, 'resolution_description,resolved_at'));
+	
+	if (gr.getValue("sys_mod_count") > 0)
+		fields.push($sp.getField(gr, 'sys_updated_on'));
+
+	if (gr.getValue('price') > 0)
+		fields.push($sp.getField(gr, 'price'));
+	
+	if (gr.getValue('recurring_price') > 0) {
+		var rp = $sp.getField(gr, 'recurring_price');
+		if (gr.isValidField("recurring_price"))
+			rp.display_value = rp.display_value + " " + gr.getDisplayValue("recurring_frequency");
+		fields.push(rp);
+	}
+
+	data.tableLabel = gr.getLabel();
+	data.fields = fields;
+	data.variables = $sp.getVariablesArray();
+	data.agent = agent;
+	data.agentPossible = gr.isValidField("assigned_to");
+	data.table = gr.getTableName();
+	data.sys_id = gr.getUniqueValue();
+})()
+
+]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>E0346167</sys_created_by>
+        <sys_created_on>2017-12-28 08:09:48</sys_created_on>
+        <sys_id>a2f2dd354fd30b40f2a20e428110c7ba</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>Helpdesk Ticket Fields</sys_name>
+        <sys_package display_value="Sanofi SBS Helpdesk" source="x_saag_sbs_concier">b83950904f0f0b00f2a20e428110c7a4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Sanofi SBS Helpdesk">b83950904f0f0b00f2a20e428110c7a4</sys_scope>
+        <sys_update_name>sp_widget_a2f2dd354fd30b40f2a20e428110c7ba</sys_update_name>
+        <sys_updated_by>E0346167</sys_updated_by>
+        <sys_updated_on>2017-12-28 08:23:52</sys_updated_on>
+        <template><![CDATA[<div ng-if="data.canRead" class="panel b">
+  <div class="panel-heading bg-primary">
+    <div ng-init="spSearch.targetRequests()">
+      <sp-c-link target="form" table="data.table" id="data.sys_id"/>
+    </div>
+    <span ng-if="data.agent" >
+      ${Agent working on this {{data.tableLabel}}}:
+      <div>{{data.agent}}</div>
+    </span>
+    <span ng-if="!data.agent && data.agentPossible" >${Your request has been submitted}</span>
+    <span ng-if="!data.agentPossible">${{{data.tableLabel}} record details}</span>
+  </div>
+
+  <div class="panel-body">
+    <div ng-if="data.fields.length > 0">
+      <div class="row">
+        <div class="col-md-6 col-sm-12 col-xs-6 m-b break-word" ng-repeat="field in data.fields" 
+             ng-if="field.value && (field.type != 'decimal' || field.type == 'decimal' && field.value != 0)" >
+          <label class="m-n">{{field.label}}</label>
+          <span ng-switch="field.type">
+            <div ng-switch-when="glide_date_time" title="{{field.display_value}}">
+              <sn-time-ago timestamp="::field.value" />
+            </div>
+            <div ng-switch-default >{{field.display_value}}</div>
+          </span>
+        </div>
+      </div>
+    </div>
+
+    <div ng-if="data.variables.length > 0" ng-init="c.variable_toggle = true">
+      <button class="h4 options-btn" ng-click="c.variable_toggle = !c.variable_toggle" aria-expanded="{{c.variable_toggle}}" aria-controls="variables-toggle">
+        <span style="font-size: 12px;" class="glyphicon" ng-class="c.variable_toggle ? 'glyphicon-chevron-down' : 'glyphicon-chevron-up'"></span>
+        ${Options}
+      </button>
+      
+      <div ng-if="c.variable_toggle" id="variables-toggle" aria-hidden="{{!c.variable_toggle}}">
+        <hr role="presentation">
+        <div class="m-b break-word" ng-repeat="variable in data.variables">
+          <label class="m-n">{{variable.label}}</label>
+          <div>{{variable.display_value}}</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div ng-if="data.agentPossible && !data.agent && options.pickup_msg" class="panel-footer">
+    <div id="ticket_fields_footer" class="text-center text-muted" style="font-style: italic;" ng-bind-html="data.pickupMsg">
+    </div>
+  </div>
+
+</div>]]></template>
+    </sp_widget>
+</record_update>

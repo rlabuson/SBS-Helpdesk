@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>false</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>false</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_saag_sbs_concier_sbs_case</collection>
+        <condition>current.state.changes() &amp;&amp; current.state == '6'</condition>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition/>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>Mark Case Resolved</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+	setResolutionFields();
+
+	function setResolutionFields() {
+
+		//current.resolved_at = new GlideDateTime();
+		if (current.resolved_at.nil())
+		  current.resolved_at = new GlideDateTime();
+
+		// Update the fields that indicate the time and duration of this incident from open to resolve.
+		// Keep track of duration as a glide_duration value (dd hh:mm:ss) and as a pure number of seconds.
+		// Both calendar time and business time are maintained.   
+
+		//var opened = current.opened_at.getDisplayValue();
+		//var resolved = current.resolved_at.getDisplayValue();
+		var dur = callSchedule(current.opened_at,current.resolved_at);
+		current.business_duration = dur;
+		
+		function callSchedule(start, end) {
+			// Get the user
+			var usr = new GlideRecord('sys_user');
+			usr.get(gs.getUserID());
+			// Create schedule - pass in the sys_id of your standard work day schedule and pass in the users timezone
+			var sched = new GlideSchedule('4131b5eedb4bc3009e7eda94ce9619fb',usr.time_zone);
+			// Get duration based on schedule/timezone
+			var duration = sched.duration(new GlideDateTime(start), new GlideDateTime(end));			
+			return duration;
+		}
+		
+		/*var opened = new GlideDateTime(current.opened_at);
+		var resolved = new GlideDateTime();
+
+		current.business_duration = GlideDateTime.subtract(opened, resolved);
+		//gs.calDateDiff(opened, resolved, false);   
+		current.business_stc = GlideDateTime.subtract(opened, resolved);
+		current.calendar_duration = GlideDateTime.subtract(opened, resolved);
+		//gs.dateDiff(opened, resolved, false);   
+		current.calendar_stc = GlideDateTime.subtract(opened, resolved);*/
+	}
+
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>E0346167</sys_created_by>
+        <sys_created_on>2017-12-12 06:39:22</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>ba742aa43703c70008ae13b853990ef3</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Mark Case Resolved</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Sanofi SBS Helpdesk" source="x_saag_sbs_concier">b83950904f0f0b00f2a20e428110c7a4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Sanofi SBS Helpdesk">b83950904f0f0b00f2a20e428110c7a4</sys_scope>
+        <sys_update_name>sys_script_ba742aa43703c70008ae13b853990ef3</sys_update_name>
+        <sys_updated_by>E0346167</sys_updated_by>
+        <sys_updated_on>2017-12-19 03:28:13</sys_updated_on>
+        <template/>
+        <when>before</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=ba742aa43703c70008ae13b853990ef3"/>
+</record_update>

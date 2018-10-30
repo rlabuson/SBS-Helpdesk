@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="SBS Site" max_length="40" name="x_saag_sbs_concier_sbs_site" type="collection">
+        <element default="true" label="Active" max_length="40" name="active" type="boolean"/>
+        <element display="true" label="Site name" mandatory="true" max_length="40" name="site_name" type="string"/>
+    </element>
+</database>

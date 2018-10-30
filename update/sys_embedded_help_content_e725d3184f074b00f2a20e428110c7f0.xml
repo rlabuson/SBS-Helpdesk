@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_embedded_help_content">
+    <sys_embedded_help_content action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category>hr</category>
+        <content><![CDATA[    <h1 class="title topictitle1">Add or modify HR criteria</h1>        <div class="body taskbody">        <ol class="ol steps" id="sn_hr_core_criteria-setup.dita__steps_dxw_qsh_cz"><li class="li step">                <span class="ph cmd">Click <span class="ph uicontrol">New</span>.</span>                <table class="simpletable choicetable choicetableborder" id="sn_hr_core_criteria-setup.dita__d15791e69"><thead><tr><th id="d350036e32-option">Option</th><th id="d350036e32-desc">Description</th></tr></thead><tbody><tr class="strow chrow"><td id="d350036e36" class="stentry choption"><strong>Name</strong></td><td class="stentry chdesc">Enter a name identifying the HR criteria.</td></tr><tr class="strow chrow"><td id="d350036e45" class="stentry choption"><strong>Table</strong></td><td class="stentry chdesc">Click and select the table the condition is to filter on. <div class="p">For                                example, to filter on a role, select User Role                                    [sys_user_has_role].<div class="note note"><span class="notetitle">Note:</span> When used for bulk HR cases, the                                        <span class="ph uicontrol">Table</span> and <span class="ph uicontrol">User                                        Column</span> must be entered.</div></div></td></tr><tr class="strow chrow"><td id="d350036e64" class="stentry choption"><strong>Active</strong></td><td class="stentry chdesc">Check to activate the HR criteria.</td></tr><tr class="strow chrow"><td id="d350036e73" class="stentry choption"><strong>User Column</strong></td><td class="stentry chdesc">Together with the Table field, filters users for bulk case                                creation.<p class="p">For example, </p></td></tr><tr class="strow chrow"><td id="d350036e84" class="stentry choption"><strong>Description</strong></td><td class="stentry chdesc">Enter a description for the HR criteria.</td></tr></tbody></table>            </li><li class="li step">                <span class="ph cmd">Click <span class="ph uicontrol">Save</span> from the                        <span class="ph uicontrol">Content</span> menu to remain on the <span class="ph uicontrol">HR                        Criteria</span> form. The <span class="ph uicontrol">Conditions</span> section                    displays.</span>            </li><li class="li step">                <span class="ph cmd">Click <span class="ph uicontrol">New</span> to create conditions. </span>                <table class="simpletable choicetable choicetableborder" id="sn_hr_core_criteria-setup.dita__d15791e162"><thead><tr><th id="d350036e119-option">Option</th><th id="d350036e119-desc">Description</th></tr></thead><tbody><tr class="strow chrow"><td id="d350036e123" class="stentry choption"><strong>Name</strong></td><td class="stentry chdesc">Enter a name that describes the condition.</td></tr><tr class="strow chrow"><td id="d350036e132" class="stentry choption"><strong>Table</strong></td><td class="stentry chdesc">Click and select the table the condition is to filter on. <p class="p">For                                example, to filter on a role, select User Role                                [sys_user_has_role].</p></td></tr><tr class="strow chrow"><td id="d350036e143" class="stentry choption"><strong>Active</strong></td><td class="stentry chdesc">Check to activate the HR condition.</td></tr><tr class="strow chrow"><td id="d350036e152" class="stentry choption"><strong>User Column</strong></td><td class="stentry chdesc"> </td></tr><tr class="strow chrow"><td id="d350036e160" class="stentry choption"><strong>Condition</strong></td><td class="stentry chdesc">Add conditions to specify the fields and values that create the                            filter and based on the table selected.<div class="p" id="sn_hr_core_criteria-setup.dita__d15791e208">For example,                                to create a condition to display the link for new hires, select                                    <span class="ph uicontrol">Role</span> from choose field, is, and                                    sn_hr_core.hrsm_new_hire.<div class="note note"><span class="notetitle">Note:</span> It is required to add a filter                                    condition: user, is (dynamic), Me. This filter prevents placing                                    the HR link for every user in your company.</div></div></td></tr></tbody></table>            </li><li class="li step">                <span class="ph cmd">Click <span class="ph uicontrol">Submit</span>.</span>            </li></ol>    </div>]]></content>
+        <last_sync>2017-12-26 15:32:07</last_sync>
+        <modifier>normal</modifier>
+        <name>sn_hr_core_criteria-normal</name>
+        <page>sn_hr_core_criteria</page>
+        <product>1</product>
+        <qualifier/>
+        <role/>
+        <role_order>1000</role_order>
+        <snc_created>true</snc_created>
+        <sys_class_name>sys_embedded_help_content</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2017-12-11 15:32:05</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>e725d3184f074b00f2a20e428110c7f0</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>sn_hr_core_criteria-normal</sys_name>
+        <sys_package display_value="Sanofi SBS Helpdesk" source="x_saag_sbs_concier">b83950904f0f0b00f2a20e428110c7a4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Sanofi SBS Helpdesk">b83950904f0f0b00f2a20e428110c7a4</sys_scope>
+        <sys_update_name>sys_embedded_help_content_e725d3184f074b00f2a20e428110c7f0</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2017-12-26 15:32:07</sys_updated_on>
+        <version>j</version>
+    </sys_embedded_help_content>
+    <sys_translated_text action="delete_multiple" query="documentkey=e725d3184f074b00f2a20e428110c7f0"/>
+</record_update>

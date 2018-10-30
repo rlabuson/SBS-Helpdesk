@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" extends="new_call" label="SBS Case" max_length="40" name="x_saag_sbs_concier_sbs_case" type="collection">
+        <element label="Action owner" max_length="40" name="action_owner" type="string"/>
+        <element label="Business duration" max_length="40" name="business_duration" read_only="true" type="glide_duration"/>
+        <element label="Additional comments" max_length="4000" name="comments" type="journal_input"/>
+        <element label="Contact information" max_length="40" name="contact_number" type="string"/>
+        <element label="Customer function" mandatory="true" max_length="40" name="customer_function" type="string"/>
+        <element label="Customer name" max_length="40" name="customer_name" type="string"/>
+        <element label="Is external customer" max_length="40" name="is_external_customer" type="boolean"/>
+        <element attributes="ref_ac_columns_search=true,ref_ac_display_value=false,ref_ac_columns=user_name;name,ref_auto_completer=AJAXTableCompleter" label="Opened for" max_length="32" name="opened_for" reference="sys_user" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="reference"/>
+        <element choice="3" default="4" label="Priority" max_length="40" name="priority" type="integer">
+            <choice>
+                <element inactive_on_update="false" label="1 - Critical" sequence="1" value="1"/>
+                <element inactive_on_update="false" label="2 - High" sequence="2" value="2"/>
+                <element inactive_on_update="false" label="3 - Moderate" sequence="3" value="3"/>
+                <element inactive_on_update="false" label="4 - Low" sequence="4" value="4"/>
+                <element inactive_on_update="false" label="5 - Planning" sequence="5" value="5"/>
+            </choice>
+        </element>
+        <element label="Process" mandatory="true" max_length="32" name="process" reference="x_saag_sbs_concier_sbs_process" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="reference"/>
+        <element label="Reopened" max_length="40" name="reopened" type="boolean"/>
+        <element label="Resolution description" max_length="4000" name="resolution_description" type="string"/>
+        <element label="Resolved" max_length="40" name="resolved_at" read_only="true" type="glide_date_time"/>
+        <element label="Site" mandatory="true" max_length="32" name="site" reference="x_saag_sbs_concier_sbs_site" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="reference"/>
+        <element choice="3" default="1" label="State" max_length="40" name="state" read_only="true" type="integer">
+            <choice>
+                <element inactive_on_update="false" label="New" sequence="1" value="1"/>
+                <element inactive_on_update="false" label="In Progress" sequence="2" value="2"/>
+                <element inactive_on_update="false" label="Resolved" sequence="6" value="6"/>
+                <element inactive_on_update="false" label="Closed" sequence="7" value="7"/>
+            </choice>
+        </element>
+        <element dependent="process" dependent_on_field="process" label="System" mandatory="true" max_length="32" name="system" reference="x_saag_sbs_concier_sbs_system" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="reference" use_dependent_field="true"/>
+        <index name="index">
+            <element name="process"/>
+        </index>
+        <index name="index2">
+            <element name="site"/>
+        </index>
+        <index name="index3">
+            <element name="system"/>
+        </index>
+        <index name="index4">
+            <element name="opened_for"/>
+        </index>
+    </element>
+</database>

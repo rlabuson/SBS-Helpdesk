@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="gsw_change_log">
+    <gsw_change_log action="INSERT_OR_UPDATE">
+        <change_date>2017-12-13 06:15:11</change_date>
+        <changed_by display_value="Ramilo LABUSON">018c6878db720300cdc6d450cf961958</changed_by>
+        <content display_value="Welcome to Performance Analytics Guided Setup">8de556090b0212001e684ac3b6673ae7</content>
+        <related_change_log_entry/>
+        <related_task_entry/>
+        <sys_class_name>gsw_change_log</sys_class_name>
+        <sys_created_by>E0346167</sys_created_by>
+        <sys_created_on>2017-12-13 06:15:11</sys_created_on>
+        <sys_id>21e82338370fc70008ae13b853990e89</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>2017-12-13 06:15:11</sys_name>
+        <sys_package display_value="Sanofi SBS Helpdesk" source="x_saag_sbs_concier">b83950904f0f0b00f2a20e428110c7a4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Sanofi SBS Helpdesk">b83950904f0f0b00f2a20e428110c7a4</sys_scope>
+        <sys_update_name>gsw_change_log_21e82338370fc70008ae13b853990e89</sys_update_name>
+        <sys_updated_by>E0346167</sys_updated_by>
+        <sys_updated_on>2017-12-13 06:15:11</sys_updated_on>
+        <type>1</type>
+    </gsw_change_log>
+</record_update>

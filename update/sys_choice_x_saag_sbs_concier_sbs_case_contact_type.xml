@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="contact_type" table="x_saag_sbs_concier_sbs_case" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>contact_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Physical</label>
+            <language>en</language>
+            <name>x_saag_sbs_concier_sbs_case</name>
+            <sequence>0</sequence>
+            <sys_created_by>E0346167</sys_created_by>
+            <sys_created_on>2017-12-12 05:37:32</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>29965e6c37cf870008ae13b853990ec1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>E0346167</sys_updated_by>
+            <sys_updated_on>2017-12-12 05:37:32</sys_updated_on>
+            <value>physical</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>contact_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Digital</label>
+            <language>en</language>
+            <name>x_saag_sbs_concier_sbs_case</name>
+            <sequence>1</sequence>
+            <sys_created_by>E0346167</sys_created_by>
+            <sys_created_on>2017-12-12 05:37:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e1c6dea8378f870008ae13b853990ef9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>E0346167</sys_updated_by>
+            <sys_updated_on>2017-12-12 05:37:55</sys_updated_on>
+            <value>digital</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>contact_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Hotline</label>
+            <language>en</language>
+            <name>x_saag_sbs_concier_sbs_case</name>
+            <sequence>2</sequence>
+            <sys_created_by>E0346167</sys_created_by>
+            <sys_created_on>2017-12-12 05:38:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>24d696a837cf870008ae13b853990ea1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>E0346167</sys_updated_by>
+            <sys_updated_on>2017-12-12 05:38:07</sys_updated_on>
+            <value>hotline</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>contact_type</element>
+            <name>x_saag_sbs_concier_sbs_case</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>E0346167</sys_created_by>
+            <sys_created_on>2017-12-12 05:37:32</sys_created_on>
+            <sys_id>26fd8ef5db170300cdc6d450cf961956</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>contact_type</sys_name>
+            <sys_package display_value="Sanofi SBS Helpdesk" source="x_saag_sbs_concier">b83950904f0f0b00f2a20e428110c7a4</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Sanofi SBS Helpdesk">b83950904f0f0b00f2a20e428110c7a4</sys_scope>
+            <sys_update_name>sys_choice_x_saag_sbs_concier_sbs_case_contact_type</sys_update_name>
+            <sys_updated_by>E0346167</sys_updated_by>
+            <sys_updated_on>2017-12-12 05:37:32</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

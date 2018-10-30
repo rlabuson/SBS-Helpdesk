@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="SBS Helpdesk">7c39d0904f0f0b00f2a20e428110c79e</application>
+        <assessment/>
+        <content_page/>
+        <device_type/>
+        <filter table="x_saag_sbs_concier_sbs_case">state=7^EQ<item endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="7"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>All Open Cases</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_saag_sbs_concier_sbs_case</name>
+        <order>800</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles/>
+        <survey/>
+        <survey_overwrite>true</survey_overwrite>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>E0346167</sys_created_by>
+        <sys_created_on>2017-12-11 09:04:27</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>997c359c4f034b00f2a20e428110c746</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Closed Cases</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Sanofi SBS Helpdesk" source="x_saag_sbs_concier">b83950904f0f0b00f2a20e428110c7a4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Sanofi SBS Helpdesk">b83950904f0f0b00f2a20e428110c7a4</sys_scope>
+        <sys_update_name>sys_app_module_997c359c4f034b00f2a20e428110c746</sys_update_name>
+        <sys_updated_by>E0346167</sys_updated_by>
+        <sys_updated_on>2017-12-14 08:46:12</sys_updated_on>
+        <timeline_page/>
+        <title>Closed Cases</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+</record_update>
